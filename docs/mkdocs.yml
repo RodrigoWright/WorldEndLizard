@@ -1,0 +1,5 @@
+site_name: World End Lizard
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
