@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://rodrigowright.github.io/WorldEndLizard/</loc>
-         <lastmod>2024-08-24</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://rodrigowright.github.io/world-end-lizard/</loc>
+        <lastmod>2024-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/"/>
     </url>
     <url>
-         <loc>https://rodrigowright.github.io/WorldEndLizard/about/</loc>
-         <lastmod>2024-08-24</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>https://rodrigowright.github.io/world-end-lizard/about/</loc>
+        <lastmod>2024-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/about/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/about/"/>
+    </url>
+    <url>
+        <loc>https://rodrigowright.github.io/world-end-lizard/pt-BR/</loc>
+        <lastmod>2024-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/"/>
+    </url>
+    <url>
+        <loc>https://rodrigowright.github.io/world-end-lizard/pt-BR/about/</loc>
+        <lastmod>2024-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/about/"/>
     </url>
 </urlset>
