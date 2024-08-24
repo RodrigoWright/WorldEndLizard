@@ -1,4 +1,9 @@
 site_name: World End Lizard
+site_url: https://rodrigowright.github.io/WorldEndLizard/
+site_author: Rodrigo Wright
+site_description: >-
+  Be Happy (:
+
 nav:
   - Home: index.md
   - About: about.md
@@ -8,8 +13,8 @@ repo_name: WorldEndLizard
 
 theme: 
   name: material
-  favicon: /img/favicon.png
-  logo: /img/favicon.png
+  favicon: img/favicon.png
+  logo: img/favicon.png
   language: pt-BR
   palette:
     - media: "(prefers-color-scheme: dark)"
