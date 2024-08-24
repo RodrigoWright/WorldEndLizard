@@ -1,17 +1,33 @@
-# Welcome to MkDocs (pt-BR)
+# Bem vindo ao World End Lizard  (pt-BR)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bem vindo! Este é o site de documentação do World End Lizard. Aqui você poderá encontrar algumas informações necessárias para rodar o jogo, assim como informações sobre o desenvolvimento do projeto. 
 
-## Commands
+A Wiki estará disponível após o desenvolvimento de algumas fases do jogo.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Como rodar a partir do repositório:
+	
+### Dependências:
 
-## Project layout
+Gerenciador de pacotes npm.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Instalação:
+
+- Baixe o repositório do github:
+
+```bash
+git clone https://github.com/RodrigoWright/CompiladoresT5.git
+```
+
+- Baixe as dependências:
+	
+```bash
+npm install
+```
+
+- Comece o LocalHost
+
+```bash
+npm start
+```
+
+- Acesse o [localhost:3000](http://127.0.0.1:3000) e jogue 😃.
