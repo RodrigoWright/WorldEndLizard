@@ -2,4 +2,55 @@ site_name: World End Lizard
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+
+repo_url: https://github.com/RodrigoWright/WorldEndLizard
+repo_name: WorldEndLizard
+
+theme: 
+  name: material
+  favicon: /img/favicon.png
+  logo: /img/favicon.png
+  language: pt-BR
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: 
+        icon: material/brightness-7
+        name: Light Side
+      primary: black
+      accent: red
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-3
+        name: Dark Side
+      primary: black
+      accent: deep orange
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest  
+    - search.highlights
+    - search.share
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - search
+  
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RodrigoWright
+      name: Rodrigo Wright on Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rodrigo-edmar-wright-dos-santos-ab00841ab
+      name: Rodrigo Wright on LinkeIN
+  generator: false
+
+copyright: Copyright &copy; 2024 Rodrigo Wright
