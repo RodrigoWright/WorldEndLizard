@@ -1,4 +1,4 @@
-# Lorem Ipsum pt-br
+# Lorem Ipsum (pt-BR)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum elit ac libero maximus iaculis. Donec lacinia sollicitudin libero sagittis dignissim. Phasellus a tincidunt sem. Nam eleifend efficitur urna sollicitudin laoreet. Fusce vehicula molestie congue. Quisque fringilla imperdiet ante, in pellentesque purus euismod sed. Pellentesque ac dictum leo. Sed pretium pellentesque orci a molestie. Sed sed ante tellus. Vivamus et lacus et est eleifend maximus at vitae turpis. Duis at hendrerit felis, a ornare nisl. Vivamus mi lacus, fringilla sed urna at, malesuada scelerisque ex. Integer consectetur imperdiet sapien, vel iaculis dui tempus ut. Integer tempus mi iaculis lorem rutrum tincidunt.
 

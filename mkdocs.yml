@@ -1,21 +1,24 @@
 site_name: World End Lizard
-site_url: https://rodrigowright.github.io/WorldEndLizard/
+site_url: https://rodrigowright.github.io/world-end-lizard/
 site_author: Rodrigo Wright
 site_description: >-
   Be Happy (:
+docs_dir: '../../en/docs/'                           # Where to find the English markdown files
+site_dir: '../../generator/en'                      # Where to put the English HTML files
 
 nav:
   - Home: index.md
   - About: about.md
 
-repo_url: https://github.com/RodrigoWright/WorldEndLizard
-repo_name: WorldEndLizard
+repo_url: https://github.com/RodrigoWright/world-end-lizard
+repo_name: world-end-lizard
 
 theme: 
   name: material
+  custom_dir: '../../overrides/' 
   favicon: img/favicon.png
   logo: img/favicon.png
-  language: pt-BR
+  language: en
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -46,6 +49,16 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: pt-br
+          name: Português
+          build: true
   
 
 extra:
@@ -56,6 +69,15 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/rodrigo-edmar-wright-dos-santos-ab00841ab
       name: Rodrigo Wright on LinkeIN
-  generator: false
+  generator: false      
+# Language Selection
+  alternate:  
+    # Switch to pt br
+    - name: Português
+      link: /world-end-lizard/pt-br/
+      lang: pt-BR
+    - name: English
+      link: /world-end-lizard/en/
+      lang: en
 
 copyright: Copyright &copy; 2024 Rodrigo Wright
