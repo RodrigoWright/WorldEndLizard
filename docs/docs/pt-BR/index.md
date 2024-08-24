@@ -15,7 +15,7 @@ Gerenciador de pacotes npm.
 - Baixe o repositório do github:
 
 ```bash
-git clone https://github.com/RodrigoWright/CompiladoresT5.git
+git clone https://github.com/RodrigoWright/world-end-lizard.git
 ```
 
 - Baixe as dependências:
