@@ -2,7 +2,7 @@
 
 Nesta seção, será apresentado o documento de arquitetura de software (DAS) definido para esta aplicação. Nele, estará contido as decisões arquiteturais tomadas durante o desenvolvimento do projeto. Além disso, será adotado para este documento a estrutura do modelo de arquitetura de software 4+1 de Kruchten. Para mais informações sobre o modelo acesse: [KRU41].
 
-![4+1 view model]()
+![KRU4+1 scheme](https://github.com/user-attachments/assets/417672ef-a2ef-419b-a53b-dab46726a978)
 
 ## Referências
 
