@@ -14,6 +14,13 @@ nav:
     - Introdução: Wiki/index.md
   - DAS:
     - Introdução: DAS/index.md
+    - Requisitos e Restrições: DAS/Requisitos.md
+    - Visão Lógica: DAS/visaologica.md
+    - Visão de Implementação: DAS/visaoimplementacao.md
+    - Visão de Deploy: DAS/visaodeploy.md
+    - Visão de Processos:
+      - Dimensionamento e Performance: DAS/dimensionamento.md
+      - Qualidade: DAS/qualidade.md
 
 theme: 
   name: material
@@ -46,6 +53,9 @@ theme:
     - search.highlights
     - search.share
     - content.code.copy
+
+extra_css:
+  - img/stylesheet.css
 
 extra:
   social:
