@@ -14,7 +14,6 @@ const GameComponent = ({ config }) => {
   return (
     <>  
         <Box
-            border={"2px solid red"}
             alignContent={'center'}
             id="phaser-container"
         />

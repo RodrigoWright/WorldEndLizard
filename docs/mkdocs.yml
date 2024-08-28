@@ -1,12 +1,12 @@
-site_name: World End Lizard
-site_url: https://rodrigowright.github.io/world-end-lizard/
+site_name: World End Swordmaster
+site_url: https://rodrigowright.github.io/world-end-swordmaster/
 site_author: Rodrigo Wright
 site_description: >-
   Be Happy (:
 docs_dir: './docs/'                           # Where to find the English markdown files
 site_dir: './generator/'                      # Where to put the English HTML files
-repo_url: https://github.com/RodrigoWright/world-end-lizard
-repo_name: world-end-lizard
+repo_url: https://github.com/RodrigoWright/world-end-swordmaster
+repo_name: world-end-swordmaster
 
 nav:
   - Home: index.md

@@ -1,4 +1,4 @@
-# Bem vindo ao World End Lizard  (pt-BR)
+# Bem vindo ao World End Swordmaster  (pt-BR)
 
 Bem vindo! Este é o site de documentação do World End Lizard. Aqui você poderá encontrar algumas informações necessárias para rodar o jogo, assim como informações sobre o desenvolvimento do projeto. 
 
@@ -15,7 +15,7 @@ Gerenciador de pacotes npm.
 - Baixe o repositório do github:
 
 ```bash
-git clone https://github.com/RodrigoWright/world-end-lizard.git
+git clone https://github.com/RodrigoWright/world-end-swordmaster.git
 ```
 
 - Baixe as dependências:
