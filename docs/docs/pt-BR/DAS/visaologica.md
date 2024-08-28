@@ -1,0 +1,3 @@
+# Visão Lógica
+
+Não Definido.

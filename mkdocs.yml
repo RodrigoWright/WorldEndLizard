@@ -1,0 +1,83 @@
+site_name: World End Lizard
+site_url: https://rodrigowright.github.io/world-end-lizard/
+site_author: Rodrigo Wright
+site_description: >-
+  Be Happy (:
+docs_dir: '../../en/docs/'                           # Where to find the English markdown files
+site_dir: '../../generator/en'                      # Where to put the English HTML files
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+repo_url: https://github.com/RodrigoWright/world-end-lizard
+repo_name: world-end-lizard
+
+theme: 
+  name: material
+  custom_dir: '../../overrides/' 
+  favicon: img/favicon.png
+  logo: img/favicon.png
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: 
+        icon: material/brightness-7
+        name: Light Side
+      primary: black
+      accent: red
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-3
+        name: Dark Side
+      primary: black
+      accent: deep orange
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest  
+    - search.highlights
+    - search.share
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: pt-br
+          name: Português
+          build: true
+  
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RodrigoWright
+      name: Rodrigo Wright on Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rodrigo-edmar-wright-dos-santos-ab00841ab
+      name: Rodrigo Wright on LinkeIN
+  generator: false      
+# Language Selection
+  alternate:  
+    # Switch to pt br
+    - name: Português
+      link: /world-end-lizard/pt-br/
+      lang: pt-BR
+    - name: English
+      link: /world-end-lizard/en/
+      lang: en
+
+copyright: Copyright &copy; 2024 Rodrigo Wright

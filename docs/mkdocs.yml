@@ -1,21 +1,31 @@
-site_name: World End Lizard
-site_url: https://rodrigowright.github.io/WorldEndLizard/
+site_name: World End Swordmaster
+site_url: https://rodrigowright.github.io/world-end-swordmaster/
 site_author: Rodrigo Wright
 site_description: >-
   Be Happy (:
+docs_dir: './docs/'                           # Where to find the English markdown files
+site_dir: './generator/'                      # Where to put the English HTML files
+repo_url: https://github.com/RodrigoWright/world-end-swordmaster
+repo_name: world-end-swordmaster
 
 nav:
   - Home: index.md
-  - About: about.md
-
-repo_url: https://github.com/RodrigoWright/WorldEndLizard
-repo_name: WorldEndLizard
+  - Wiki: 
+    - Introdução: Wiki/index.md
+  - DAS:
+    - Introdução: DAS/index.md
+    - Requisitos e Restrições: DAS/Requisitos.md
+    - Visão Lógica: DAS/visaologica.md
+    - Visão de Implementação: DAS/visaoimplementacao.md
+    - Visão de Deploy: DAS/visaodeploy.md
+    - Visão de Processos:
+      - Dimensionamento e Performance: DAS/dimensionamento.md
+      - Qualidade: DAS/qualidade.md
 
 theme: 
   name: material
   favicon: img/favicon.png
   logo: img/favicon.png
-  language: pt-BR
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -34,19 +44,18 @@ theme:
       accent: deep orange
 
   features:
-    - navigation.instant
-    - navigation.instant.progress
+#    - navigation.instant
+#    - navigation.instant.progress
     - navigation.tabs
     - navigation.top
     - navigation.footer
     - search.suggest  
     - search.highlights
     - search.share
-plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - search
-  
+    - content.code.copy
+
+extra_css:
+  - img/stylesheet.css
 
 extra:
   social:
@@ -55,7 +64,22 @@ extra:
       name: Rodrigo Wright on Github
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/rodrigo-edmar-wright-dos-santos-ab00841ab
-      name: Rodrigo Wright on LinkeIN
-  generator: false
+      name: Rodrigo Wright on LinkedIN
+  generator: false      
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en         
+          name: English
+          build: false
+        - locale: pt-BR
+          default: true
+          name: Português
+          build: true
+  - git-revision-date-localized:
+      enable_creation_date: false
 
 copyright: Copyright &copy; 2024 Rodrigo Wright
