@@ -1,31 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://rodrigowright.github.io/world-end-lizard/</loc>
-        <lastmod>2024-08-24</lastmod>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/</loc>
+        <lastmod>2024-08-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/"/>
     </url>
     <url>
-        <loc>https://rodrigowright.github.io/world-end-lizard/about/</loc>
-        <lastmod>2024-08-24</lastmod>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/DAS/</loc>
+        <lastmod>2024-08-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/about/"/>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/about/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/DAS/"/>
     </url>
     <url>
-        <loc>https://rodrigowright.github.io/world-end-lizard/pt-BR/</loc>
-        <lastmod>2024-08-24</lastmod>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/DAS/Requisitos/</loc>
+        <lastmod>2024-08-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/DAS/Requisitos/"/>
     </url>
     <url>
-        <loc>https://rodrigowright.github.io/world-end-lizard/pt-BR/about/</loc>
-        <lastmod>2024-08-24</lastmod>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/DAS/dimensionamento/</loc>
+        <lastmod>2024-08-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-lizard/pt-BR/about/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://rodrigowright.github.io/world-end-lizard/about/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/DAS/dimensionamento/"/>
+    </url>
+    <url>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/DAS/qualidade/</loc>
+        <lastmod>2024-08-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/DAS/qualidade/"/>
+    </url>
+    <url>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/DAS/visaodeploy/</loc>
+        <lastmod>2024-08-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/DAS/visaodeploy/"/>
+    </url>
+    <url>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/DAS/visaoimplementacao/</loc>
+        <lastmod>2024-08-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/DAS/visaoimplementacao/"/>
+    </url>
+    <url>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/DAS/visaologica/</loc>
+        <lastmod>2024-08-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/DAS/visaologica/"/>
+    </url>
+    <url>
+        <loc>https://rodrigowright.github.io/world-end-swordmaster/Wiki/</loc>
+        <lastmod>2024-08-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://rodrigowright.github.io/world-end-swordmaster/Wiki/"/>
     </url>
 </urlset>
