@@ -1,6 +1,6 @@
 import Phaser from "phaser"
 import img from "./assets/Bastionofsins.png"
-import player from "./assets/lancer.png";
+import player from "./assets/lancer2.png";
 
 //maxY = 38
 //510
