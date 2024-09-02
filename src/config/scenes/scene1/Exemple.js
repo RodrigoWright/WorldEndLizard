@@ -1,6 +1,7 @@
 import Phaser from "phaser"
 import img from "./assets/Bastionofsins.png"
-import player from "./assets/lancer2.png";
+//import player from "./assets/lancer2.png";
+import player from "./assets/lancerspritesheet.png";
 
 //maxY = 38
 //510
@@ -8,22 +9,47 @@ import player from "./assets/lancer2.png";
 export default class GameScene extends Phaser.Scene{
     constructor(){
         super("scene-game");
-        this.playerSpeed = 200;
+        this.playerSpeed = 1000;
     }
 
     preload(){
         this.load.image("bg", img);
-        this.load.image("player", player);
+//        this.load.image("player", player);
         this.load.image("platform", player);
+        this.load.spritesheet("player", player, {
+            frameWidth: 32,
+            frameHeight: 32
+        });
         
     }
 
     create(){
+        this.player = this.add.sprite(32, 32, "player").setOrigin(0,0);
+
+        this.anims.create({
+            key: "left",
+            frames: this.anims.generateFrameNames('player', {start: 9, end: 12}),
+            frameRate: 6,
+            repeat: 0
+        })
+        this.anims.create({
+            key: "right",
+            frames: this.anims.generateFrameNames('player', {start: 17, end: 20}),
+            frameRate: 6,
+            repeat: -1
+        })
+        this.anims.create({
+            key: "idle",
+            frames: this.anims.generateFrameNames('player', {start: 0, end: 1}),
+            frameRate: 2,
+            repeat: -1
+        })
+
         const bg = this.add.image(0,0,"bg").setOrigin(0,0);
         bg.displayHeight = this.scale.height;
         bg.displayWidth = this.scale.width;
 
-        this.player = this.physics.add.image(20, 100,"player").setOrigin(0,0);
+        this.player = this.physics.add.sprite(20, 100,"player").setOrigin(0,0);
         this.player.setCollideWorldBounds(true);
         this.player.body.allowGravity = true;
 
@@ -53,9 +79,19 @@ export default class GameScene extends Phaser.Scene{
     update(){
         const {up, down, left , right} = this.cursor;
         
-        if (right.isDown === left.isDown) {this.player.setVelocityX(0)} 
-        else if(right.isDown) {this.player.setVelocityX(this.playerSpeed); console.log("right pressed")}
-        else if(left.isDown) this.player.setVelocityX(-this.playerSpeed);
+        if (right.isDown === left.isDown) {
+            this.player.anims.play('idle', true);
+            this.player.setVelocityX(0);
+        } 
+        else if(right.isDown) {
+            this.player.anims.play('right', true)
+            this.player.setVelocityX(this.playerSpeed); 
+            console.log("right pressed")
+        }
+        else if(left.isDown){
+            this.player.anims.play("left", true)
+            this.player.setVelocityX(-this.playerSpeed);
+        } 
 
         // if (up.isDown === down.isDown) this.player.setVelocityY(0);
         // else if(up.isDown) this.player.setVelocityY(-this.playerSpeed);
